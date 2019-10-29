@@ -27,17 +27,4 @@ const Button = styled.button<IButtonProps>`
   }
 `;
 
-// Button.defaultProps = {
-//   disabled: false,
-//   inverted: false,
-//   theme: {
-//     colors: {
-//       black: "#000",
-//       white: "#fff"
-//     },
-//     primary: "#FFF",
-//     secondary: "#000"
-//   }
-// };
-
 export default Button;
