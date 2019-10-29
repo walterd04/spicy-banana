@@ -38,18 +38,13 @@ var ConfiguredSPAs = function() {
   /****************** Start SPA Configuration ******************/
   var SPAs = [
     new SPA({
-      name: "first",
-      entryPoint: "./src/entrypoints/first.tsx",
+      name: "landingPage",
+      entryPoint: "./src/entrypoints/landing-page/index.tsx",
       redirect: true
-    }),
-    new SPA({
-      name: "second",
-      entryPoint: "./src/entrypoints/second.tsx",
-      redirect: false
     })
   ];
 
-  SPAs.appTitle = "Crisp React";
+  SPAs.appTitle = "Spicy Banana TV";
   /****************** End SPA Configuration ******************/
 
   SPAs.verifyParameters = function(verifier) {

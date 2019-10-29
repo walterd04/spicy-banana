@@ -39,11 +39,15 @@
     "copy": "copyfiles -f dist/* ../server/build/client/"
   },
   "dependencies": {
+    "@types/styled-components": "^4.1.20",
+    "prettier-tslint": "^0.4.2",
+    "prop-types": "^15.7.2",
     "react": "16.9.0",
     "react-dom": "16.9.0",
     "react-helmet": "5.2.1",
     "react-router-dom": "^5.0.1",
     "semantic-ui-react": "0.88.0",
+    "styled-components": "^4.4.0",
     "typestyle": "^2.0.4"
   },
   "devDependencies": {
