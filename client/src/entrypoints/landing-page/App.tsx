@@ -2,7 +2,8 @@ import * as React from "react";
 import * as PropTypes from "prop-types";
 import { ThemeProvider } from "styled-components";
 
-import { Row, Column, Button, Input } from "../../components/styles";
+import { Row, Column, Button } from "../../components/styles";
+import Header from "./components/Header";
 
 interface IAppProps {
   theme: object;
@@ -12,6 +13,9 @@ const App = ({ theme }: IAppProps) => {
   return (
     <ThemeProvider theme={theme}>
       <div>
+        <Row>
+          <Header />
+        </Row>
         <Row>
           <Column lg="12">
             <Button className="btn-default">Example Primary Button</Button>
