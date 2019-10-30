@@ -2,7 +2,7 @@ import * as React from "react";
 import * as PropTypes from "prop-types";
 import { ThemeProvider } from "styled-components";
 
-import { Row, Column, Button } from "../../components/styles";
+import { Row, Column, Button, Input } from "../../components/styles";
 
 interface IAppProps {
   theme: object;
@@ -25,6 +25,14 @@ const App = ({ theme }: IAppProps) => {
             <Button className="btn-secondary">Example Secondary Button</Button>
             <Button inverted={true} className="btn-secondary">
               Example Secondary Button Inverted
+            </Button>
+          </Column>
+        </Row>
+        <Row>
+          <Column lg="12">
+            <Button className="btn-brand">Example Brand Button</Button>
+            <Button inverted={true} className="btn-brand">
+              Example Brand Button Inverted
             </Button>
           </Column>
         </Row>

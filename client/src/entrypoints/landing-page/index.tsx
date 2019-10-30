@@ -5,16 +5,22 @@ import App from "./App";
 
 const colors = {
   black: "#000",
-  blue: "#026C7C",
-  darkGray: "#121212",
-  pink: "#B81365",
-  red: "#720E07",
-  white: "#fff"
+  blue: "#4F86C6",
+  cyan: "#2f0318",
+  darkBlue: "#1F2041",
+  darkGray: "#333633",
+  gray: "#D8DDEF",
+  green: "#76907E",
+  pink: "#9B287B",
+  red: "#5d3a40",
+  white: "#fff",
+  yellow: "#ffe135"
 };
 
 const theme = {
+  brand: colors.yellow,
   colors,
-  primary: colors.red,
+  primary: colors.cyan,
   secondary: colors.blue
 };
 

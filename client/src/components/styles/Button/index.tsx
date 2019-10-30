@@ -25,6 +25,12 @@ const Button = styled.button<IButtonProps>`
       props.inverted ? props.theme.secondary : props.theme.colors.white};
     border: 1px solid ${props => props.theme.secondary};
   }
+  &.btn-brand {
+    background-color: ${props =>
+      props.inverted ? props.theme.colors.white : props.theme.brand};
+    color: ${props => props.theme.colors.darkGray};
+    border: 1px solid ${props => props.theme.brand};
+  }
 `;
 
 export default Button;
