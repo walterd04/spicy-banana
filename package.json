@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/walterd04/spicy-banana/issues"
   },
-  "homepage": "https://github.com/walterd04/spicy-banana#readme"
+  "homepage": "https://github.com/walterd04/spicy-banana#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.6.0",
+    "@typescript-eslint/parser": "^2.6.0",
+    "eslint": "^6.6.0",
+    "husky": "^3.0.9"
+  }
 }
